@@ -1,8 +1,25 @@
+body {
+    box-sizing: border-box;
+}
+
+.indexhtml {
+    background-image: url("./images/spices.png");
+    background-size: cover;
+}
+
+.content {
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+}
+
 #mainhead {
-    font-size: l40px;
+    font-size: 40px;
     font-weight: bolder;
     color: aliceblue;
     background-color: blueviolet;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 #ingredients {
@@ -20,9 +37,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.recipelink {
-    font-size: large;
+#recipelink {
+    font-size: 30px;
+    font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
+    margin: 5px auto;
+    display: block;
+    border-radius: 10px;
 }
 
 .center {
